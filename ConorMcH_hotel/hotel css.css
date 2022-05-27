@@ -1,0 +1,70 @@
+header{
+    background-image: url(https://image.shutterstock.com/image-photo/kabul-city-view-260nw-1298346472.jpg);
+    margin: 50px;
+    padding: 80px;
+    box-shadow: 5px 10px #000000;
+    box-shadow: 10px 20px gray;
+    color: white;
+    text-shadow: 3px 6px black;
+    font-size: xx-large;
+    background-repeat: no-repeat;
+    background-size: cover;}
+nav{
+    background-color: #c2b280;
+    padding: 20px;
+    box-shadow: 5px 10px #d2b48c;
+    color: white;
+    text-shadow: 1px 1px black;
+    display: block;
+    
+    }
+main{
+    background-color: burlywood;
+}
+p{
+    background-color: #B2b390;
+    padding: 20px;
+    box-shadow: 5px 10px #d2b48c;
+    color: white;
+    text-shadow: 1px 2px black;
+   
+    display: block;
+}
+mark{
+
+    color: white;
+    text-shadow: 1px 2px black;
+    font-size: xx-large;
+    align-items: center;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
