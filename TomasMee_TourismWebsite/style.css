@@ -1,0 +1,188 @@
+html {
+    background-color: #1A1A1D;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4e4e50;
+}
+
+h1 {
+    text-align: center;
+    background-color: #1A1A1D;
+    color: #c3073f;
+    margin: 0%;
+    font-size: 4em;
+}
+
+h2{
+    color: #c3073f;
+}
+
+header {
+    background-color: #1A1A1D;
+    margin: 0%;
+    padding: 0%;
+}
+
+li {
+    display: inline;
+    font-size: 2em;
+    margin-right:  1em;
+    padding: 0.3em;
+    color: #950740;
+    font-weight: bold;
+    border: 2px solid #c3073f;
+    border-radius:90px;
+}
+
+img.logo {
+    height: 1.5em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+
+
+nav {
+    text-align: center;
+    background-color: #1A1A1D;
+}
+
+a {
+    text-decoration: none;
+    color: #950740;
+}
+
+h2.left {
+    
+    float: left;
+    height: 300px;
+    font-size: 8em;
+    margin-right: 0%;
+    margin-top: 50px;
+}
+
+h2.right {
+    
+    float: right;
+    height: 300px;
+    font-size: 8em;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+
+h2.center {
+    text-align: center;
+    font-size: 6em;
+}
+
+h2.ex1 {
+    font-size: 6em;
+    margin-top: 0%;
+}
+
+p.left {
+    text-align: justify;
+    height: 300px;
+    padding-top: 0px;
+    font-size: 1.2em;
+}
+
+p.right {
+    height: 300px;
+    padding-top: 90px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+p.ex1 {
+    font-size: 2em;
+}
+
+div.span {
+    padding: 4em
+}
+
+div.box1 {
+    padding: 4em;
+    padding-bottom: 400px;
+}
+
+div.box2 {
+    padding: 4em;
+    padding-bottom: 500px;
+}
+
+div.box3 {
+    padding: 4em;
+    padding-bottom: 400px;
+}
+
+div.box4 {
+    padding: 4em;
+    padding-bottom: 350px;
+}
+
+div.box5 {
+    padding: 4em;
+    padding-bottom: 300px;
+}
+
+img.feature {
+    height: 860.31px;
+    width: 600.5px;
+    object-fit: cover;
+    display: block;
+    float: left;
+    padding: 2%;
+}
+
+h3 {
+    color: #c3073f;
+    font-size: 3em;
+    text-align: center;
+}
+
+form {
+    display: block;
+    text-align: justify;
+    font-size: 2em;
+    padding-bottom: 100px;
+    padding-left: 35%;
+    padding-left: 35%;
+}
+
+h4.ex1 {
+text-align: center;
+margin-bottom: 0%;
+font-size: 1.5em;
+}
+
+p.footer {
+    text-align: center;
+    margin-top: 0%;
+    font-size: 1.3em;
+}
+
+input {
+    background-color: #4e4e50;
+    color: whitesmoke;
+}
+
+textarea {
+    background-color: #4e4e50;
+    color: whitesmoke;
+}
+
+img.wall {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    display: block;
+    float: left;
+    padding: 1%;
+}
+
+div.imagewall {
+    padding-left: 3%;
+    padding-right: 3%;
+}
