@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+  
+  body {
+      font-family: monsterrat;
+  }
+
+
+nav {
+    background: #002746;
+    height: 70px;
+    width: 100%;
+}
+
+label.logo {
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+
+    margin-right: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a.active, a:hover {
+    background: #002746;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 5 7px;
+    position: relative;
+}
+
+ul li:not(:last-child)::after {
+    content: "";
+    border: 5px solid #e2e2e2;
+    border-width: 0.5px 0.5px 0 0;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 45%;
+}
+
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active {
+        background: none;
+        color: #002746;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+
+
+.topbar1 {
+    height: 130px;
+    background-color: #4287f5;
+    border-top: 0 solid #05043b;
+}
+
+.center {
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 35px;
+    color: #05043b;
+    position: absolute;
+    top: 35px;
+    height: 45%;
+}
+
+.informationBox {
+    position: relative;
+    width: 310px;
+    top: 10px;
+    left: 865px;
+}
+
+.boxContainer {
+    margin: auto;
+    margin-top: 20%;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border: 4px solid #123c58;
+    padding: 0px 10px;
+    border-radius: 50px;
+    left: 865px;
+    bottom: 15px;
+    background-color: #123c58;
+}
+
+.elementsContainer {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    background-color: #123c58;
+}
+
+.search {
+     border: none;
+     height: 100%;
+     width: 100%;
+     padding: 0px 5px;
+     border-radius: 50px;
+     font-size: 18px;
+     font-family: "Nunito";
+     color: #424242;
+     font-weight: 500;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.material-icons {
+    font-size: 26;
+    color: #2980b9;
+    background-color: #123c58;
+}
+
+.carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    width: 70%;
+    left: 275px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: 650px;
+}
+
+.textAlign {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-size-adjust: 100px;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.boxContainer2 {
+    background-color:#2153a3;
+    height:650px;
+    width:100%;
+}
+
+.infoBox {
+    background-color: white;
+    height: 250px;
+    width: 100%;
+}
